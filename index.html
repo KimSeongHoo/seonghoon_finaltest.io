@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+	<title>경복궁 야간개장</title>
+	
+
+<script src="https://code.jquery.com/jquery-1.11.3.js" type="text/javascript"></script>
+<script type="text/javascript">
+	$(document).ready(function () 
+{
+    $('li').mouseover(function() {
+        $(this).css('color','red');
+    }).mouseout(function(){
+        $(this).css('color','#0101DF');
+    });
+ 
+});
+	window.onload = function(){
+  var el = document.getElementById("box");
+  el.addEventListener("click", function(e){
+    e.currentTarget.style.backgroundColor = "orange";
+  }, false);
+}
+    document.addEventListener("click",changeColor,false);
+    function changeColor(){
+    	document.body.style.backgroundColor="#FFC999";
+    }
+
+</script>
+<style type="text/css">
+
+* {
+	padding: 0;
+	margin: 10px;
+}
+li{
+	list-style-type: none;
+}
+.clear{
+	clear: both;
+}
+header {
+	width: 1190px;
+	height: 80px;
+	margin-top: 10px;
+	border: solid 1px #cccccc; 
+}
+h3{
+	transition: font-size 5s;
+}
+h3:hover{
+	font-size : 200%;
+		}
+#logo {
+	margin: 20px;
+	border-bottom: dotted 2px gray;
+	float: left;
+}
+#top {
+	float: right;
+	margin: 30px 20px 0 0;
+}
+#page{
+	width :1300px;
+	height:500;
+	margin: auto;
+	border: solid 1px #cccccc;
+}
+nav {
+	width: 1190px;
+	height: 70px;
+	margin-top: 1px;
+	padding-top: 10px;
+	border: solid 1px #cccccc; 
+}
+nav li{
+	display: inline;
+	margin: 83px 30px;
+}
+section{
+	float: left;
+	margin-top: 10px;
+	border: solid 1px #cccccc;
+}
+aside{
+	float: Left;
+	margin-top: 10px;
+	border: solid 1px #cccccc;
+}
+aside li{
+	margin-bottom: 70px;
+}
+footer {
+	width: 1190px;
+	height: 100px;
+	border-top: solid 1px #cccccc;
+	margin-top: 20px;
+	border: solid 1px #cccccc; 
+}
+#address {
+	float: left;
+	margin: 30px 0 0 20px;
+}
+#customer {
+	float: right;
+	margin: 30px 0 0 180px;
+	padding-right: 20px;
+}
+
+
+    
+</style>
+</head>
+<body id="page">
+<head>
+	<div id="logo">
+	 <h3>경복궁 야간관람으로 여러분을 초대합니다</h3></div>
+	 <img src="im3.png">
+
+	<div id="top">
+	<div id="box">
+     배경을 한번 클릭해주세요!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;로그인ㅣ회원가입ㅣID/PW 찾기ㅣ사이트맵</div>
+</head>
+
+<nav>
+	<ul>
+		<li><a href ='index2.html'  target  = blank>메인화면</a></li>
+		<li><a href =https://terms.naver.com/entry.naver?docId=2057108&cid=42840&categoryId=42848  target  = blank>경복궁소개</a></li>
+		<li><a href =http://www.royalpalace.go.kr/content/preview/preview04_5a.asp target= blank>이벤트</a></li>
+		<li><a href =http://www.royalpalace.go.kr/content/board/list.asp target= blank>공지사항</a></li>
+		<li><a href =http://www.royalpalace.go.kr/content/guide/guide5.asp target  = blank>주차 및 요금 안내</a></li>
+		<li><a href =http://www.royalpalace.go.kr/content/guide/guide6.asp  target  = blank>찾아오시는길</a></li>
+		<li>포토뷰</li>
+	</ul>
+
+</nav>
+<div class="clear"></div>
+<SECTION>
+	<img src="im1.png">
+</SECTION>
+<aside>
+	<ul>
+		<li><img src="im2.png"></li>
+       
+		<li>2021년 하반기 경복궁 야관 관람</a></li>
+		<li>2021.10.21(목)~11.29.(월) 19:00-21:30</li>
+		 <input type="button"onClick="location.href='index3.html'" value="본인 확인">  
+		 <li><a href =https://www.royalpalace.go.kr/content/guide/youthgroup.asp  target  = blank>방문 예약하기</a>
+	</ul>
+</aside>
+<div class="clear"></div>
+<footer>
+	<div id="address">
+	관리자 : 김성훈 ㅣ 사업자 등록번호 110-424-382983</div>
+	<div id="customer">
+	고객센터 :6622-2445</div>
+</footer>
+</body>
+</html>
