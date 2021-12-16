@@ -1,0 +1,173 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>경복궁을 알아보다</title>
+    <style>
+      .nav {
+        background: rgba(0,0,0,.03);
+        height: 100px;
+        border-bottom: 2px solid black;
+        display: flex;
+        align-items: center;
+      }
+
+      .nav-right-items {
+        display: flex;
+        margin-left: auto;
+      }
+
+      .nav-item {
+        margin-left: 20px;
+      }
+
+      .mainsname {
+        margin-left: 20px;
+        font-size: 20px;
+        font-weight: bold;
+      }
+
+      .title{
+        text-align: center;
+        font-size: 3.5rem;
+        font-weight: bold;
+      }
+
+      .subtitle1 {
+        margin-top: 30px;
+        text-align: center;
+        font-size: 1.25rem;
+        font-weight: 300;
+      }
+
+      .subtitle2 {
+        margin-top: 10px;
+        text-align: center;
+        font-size: 1.25rem;
+        font-weight: 300;
+      }
+
+      .main {
+        width: 800px;
+        margin: 0 auto;
+        margin-top:60px; 
+      }
+
+      .prices {
+        display: flex;
+      }
+
+      .price-item {
+        width: 800px;
+        height: 30px;
+        border: 1px;
+        margin: 30px;
+        border-radius: 6px;
+        text-align: center;
+      }
+
+      .price-item-title {
+        background: rgba(0,0,0,.03);
+        text-align: center;
+        font-weight: bold;
+        height: 53px;
+        line-height: 53px;
+        font-size: 1.2rem;
+        border-bottom: 1px rgba(0,0,0,.03); 
+        }
+      
+      .price-item-price {
+        text-align:center;
+        font-size: 1rem;
+        padding: 20px;
+      }
+
+      .price-item-detail {
+        text-align:center;
+        font-size: 1rem;
+        padding: 20px;
+      }
+
+      .price-item-button {
+        font-size: 1.25rem;
+        color: #007bff;
+        background-image: none;
+        background-color: transparent;
+        border-color: #007bff;
+        border-radius: .3rem;
+        padding: .5rem 1rem;
+        line-height: 1.5;
+        text-align: center;
+        margin-top: 20px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="nav">
+      <div class="mainname">
+       경복궁 메인화면 
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       </div>
+       <div class="nav-right-items">
+        <div class="nav-item">첫번째 페이지</div>
+     </div>
+    </div>
+    <div class="main">
+      <div class="title">
+        경복궁 다녀오기
+      </div>
+      <div class="subtitle1">
+        경복궁을 방문하시는 모든 여러분들을 환영합니다. 반갑습니다! 
+      </div>
+      <div class="subtitle2">
+        Please enjoy everybody!
+      </div>
+      <div class="prices">
+       <div class="price-item">
+         <div class="price-item-title">
+           경복궁
+         </div>
+         <div class="price-item-price">
+           Open at daytime
+         </div>
+         <div class="price-item-detail">
+           환영합니다.
+         </div>
+         <button class="price-item-button" type="button" onclick="location.href='http://www.royalpalace.go.kr/'">
+           방문하기
+         </button>
+        </div>
+       <div class="price-item">
+         <div class="price-item-title">
+           경복궁 야간개장
+         </div>
+         <div class="price-item-price">
+           Open at night
+         </div>
+        <div class="price-item-detail">
+           만나서 반갑습니다.
+         </div>
+      <button class="price-item-button" type="button" onclick="location.href='index.html'">
+           방문하기
+         </button>
+         </button>
+        </div>
+       <div class="price-item">
+         <div class="price-item-title">
+           안내문
+         </div>
+         <div class="price-item-price">
+           Notice before visiting.
+         </div>
+         <div class="price-item-detail" >
+           안내문입니다.
+         </div>
+            <button class="price-item-button" type="button" onclick="location.href='http://www.royalpalace.go.kr/content/guide/guide01_tab02.asp'">
+           확인하기
+         </button>
+        </div>
+       </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

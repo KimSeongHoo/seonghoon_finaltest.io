@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <title>인증페이지</title>
+<style>
+img {
+    float: left;
+    margin-right: 10px;
+}
+
+</style>
+</head>
+
+<body onload="loadDoc()" ondblclick="dblclickFunc(event)" onresize="resizeFunc()">
+<h3>본인인증 확인페이지</h3>
+<hr>
+<form action="#" onsubmit="return submitFunc()" onreset="resetFunc()">
+    <img src="im4.png">
+    <p>당신은 로봇이 아닙니까? 그렇다면  정보 및 전화번호를 입력해주십시오 </p>
+    <hr>
+    <p>
+        로봇이 아닙니까 ?
+        <label><input type="radio"> YES</label>
+        <label><input type="radio"> NO</label>
+        <br>
+        <label>이름 <input type="text"></label>
+        <br>
+        <label>전화번호 <input type="text"></label>
+    </p>
+    <p>
+        <input type="button"onClick="location.href='index.html'" value="인증 완료">      
+    <p>
+</form>
+<ul id="currEvent"></ul>
+
+
+</script>
+</body>
+</html>
